@@ -1,0 +1,113 @@
+---
+title: "OACP-W06: Shopify to Google Merchant Center Connection Lab"
+author: "Wenting Jiang"
+date: July12,2026
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute:
+  freeze: auto
+---
+
+# Introduction
+
+## Purpose
+
+This report documents the process of connecting the EverCharm Shopify practice store to Google Merchant Center through the Google & YouTube sales channel. The objective was to understand how Shopify product data is synchronized with Google Merchant Center, identify setup requirements, and evaluate the readiness of an online store for Google Shopping.
+
+## About the Store
+
+EverCharm is a Shopify store created for this course. The store specializes in fashion jewelry, including bracelets, rings, and accessories. During this lab, the store was connected to Google Merchant Center to explore the product synchronization process and identify any setup barriers before launching products on Google Shopping.
+
+**Figure 1. Shopify store homepage or product page.**
+
+![](Figure1.png)
+
+# Connection Attempt Evidence
+
+I connected my Shopify store to Google Merchant Center using the Google & YouTube sales channel. First, I signed in with my Google account and created a Google Merchant Center account.
+
+During the setup process, I completed the required store information, including the refund policy, terms of service, and contact information. Because my Shopify trial store had password protection, I had to upgrade my Shopify plan before I could remove the password and continue the Google Merchant Center setup.
+
+After upgrading the plan, I successfully connected Google Merchant Center and Google Analytics to my Shopify store. The setup was completed successfully, and the products were synchronized to Google Merchant Center.
+
+**Figure 2. Google Merchant account authorization.**
+
+![](Figure2.png){width="330"}
+
+**Figure 3. Google & YoTube overview after connecting Google Merchant Center and Google Analytics.**
+
+![](Figure3.png)
+
+# Product Sync or Product Listing Evidence
+
+## Were you able to reach a product sync or product listing screen?
+
+Yes. I successfully reached the Google Merchant Center product listing screen after completing the connection between Shopify and Google Merchant Center.
+
+## Did your Shopify products sync, partially sync, or fail to sync?
+
+Yes. All 13 Shopify products were successfully synchronized to Google Merchant Center. However, the products were not fully approved and were marked as Limited.
+
+## What product information appeared to be missing or incomplete?
+
+Google Merchant Center identified several missing product attributes, including shipping information, age group, and color. These attributes are required to improve product quality and eligibility for Google Shopping.
+
+## Were any products flagged, blocked, or marked as needing additional information?
+
+Yes. All 13 synchronized products were marked as Limited, indicating that additional information is required before they can be fully approved.
+
+## What product data would need improvement before the store could use Google Merchant Center successfully?
+
+The store should add shipping information, age group, and color attributes for all products. Completing these product details will help improve product quality and allow the products to be fully approved for Google Shopping.
+
+**Figure 4. Google Merchant Center overview**
+
+![](Figure4.png)
+
+**Figure 5. Product listing status with Limited products and missing information.**
+
+![](Figure5.png){width="867"}
+
+# Setup Barriers and Warnings
+
+During the Google Merchant Center setup, several issues were identified that prevented the products from receiving full approval.
+
+## Missing shipping information
+
+Google Merchant Center requires shipping information before products can be approved for Google Shopping. Shipping rates, delivery regions, and estimated delivery times should be added.
+
+## Missing product attributes
+
+Several products were missing required product attributes, including age group, color, and gender. These attributes help Google classify products correctly and improve product visibility in Google Shopping.
+
+Although all 13 products were successfully synchronized to Google Merchant Center, these missing attributes caused the products to receive a Limited status instead of full approval.
+
+**Figure 6. Products requiring attention.**
+
+![](Figure6.png)
+
+# Fixes Needed
+
+Before the store can fully use Google Merchant Center, several improvements should be made.
+
+-   Add shipping information in Google Merchant Center.
+-   Complete missing product attributes, including age group, color, and gender.
+-   Review all product information to ensure it meets Google's requirements.
+-   Verify that all required business and store information is complete.
+-   After updating the missing information, resubmit the products for Google review.
+
+These improvements will help the products move from a **Limited** status to **Approved** and prepare the store for Google Shopping.
+
+# CPP Farm Store Reflection
+
+Based on my experience connecting Shopify to Google Merchant Center, I learned that preparing a store requires more than simply adding products. Although my products were successfully synchronized, they received a Limited status because some required information, such as shipping information, age group, color, and gender, was missing.
+
+Before connecting its Shopify store to Google Merchant Center, CPP Farm Store should make sure that all product information is complete and accurate. Product titles, descriptions, categories, prices, images, and required attributes should be carefully reviewed. The store should also prepare contact information, shipping policies, refund policies, and other business information to meet Google's requirements.
+
+This experience showed that Google Merchant Center checks both product quality and store readiness. By completing all required information before synchronization, CPP Farm Store can improve the approval process and better prepare for Google Shopping Ads.
